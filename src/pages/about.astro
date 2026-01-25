@@ -1,5 +1,5 @@
 ---
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 
@@ -28,13 +28,13 @@ const goal = 3;
 		<title>{pageTitle}</title>
 		<style>
           h1 {
-            color: purple;
+            color: black;
             font-size: 4rem;
           }
         </style>
 	</head>
 	<body>
-		<Navigation />
+		<Header />
         <h1>{pageTitle}</h1>
         <h2>... and my new Astro site!</h2>
 
