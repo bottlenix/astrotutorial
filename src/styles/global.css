@@ -1,6 +1,8 @@
+/*
 html {
   background-color: #f1f5f9;
 }
+*/
 
 body {
   margin: 0 auto;
@@ -34,22 +36,26 @@ a:visited {
 .nav-links a {
   display: block;
   text-align: center;
+  /*
   padding: 10px 0;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
   color: #0d0950;
+  */
 }
 
+/*
 .nav-links a:hover,
 .nav-links a:focus {
   background-color: #ff9776;
 }
+*/
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
+    /* margin-left: 5em; */
     display: block;
     position: static;
     width: auto;
@@ -58,6 +64,11 @@ a:visited {
 
   .nav-links a {
     display: inline-block;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
   }
+}
+
+#main-menu {
+  display: flex;
+  justify-content: space-between;
 }
